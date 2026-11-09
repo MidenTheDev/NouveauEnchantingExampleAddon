@@ -13,11 +13,13 @@ public class ExampleAddon implements NouveauEnchantingAddon {
 
     List<CustomEnchantment> enchants;
 
+    public ExampleAddon() {
+        enchants = new ArrayList<>();
+        enchants.add(new IceAspectEnchant());
+    }
+
     @Override
     public void onEnable(NouveauEnchanting plugin) {
-        enchants = new ArrayList<>();
-
-        enchants.add(new IceAspectEnchant());
 
     }
 
