@@ -1,0 +1,5 @@
+name: ExampleAddon
+main: bz.mine.truebalance.ExampleAddon
+version: 1.0
+depend: []                # addon is skipped (with a warning) if this plugin isn't installed
+softdepend: []            # plugins the addon can use if they happen to be installed
